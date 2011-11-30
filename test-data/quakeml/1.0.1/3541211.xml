@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<quakeml xmlns="http://quakeml.org/xmlns/quakeml/1.0">
+    <eventParameters publicID="smi:geonet.org.nz/quakeml/1.0.1">
+        <event publicID="smi:geonet.org.nz/event/3541211g">
+            <type>earthquake</type>
+            <preferredOriginID>smi:geonet.org.nz/ori/500035/GROPE</preferredOriginID>
+            <preferredMagnitudeID>smi:geonet.org.nz/mag/500035/GROPE/ML</preferredMagnitudeID>
+            <description>
+                <text>felt</text>
+                <type>felt report</type>
+            </description>
+            <origin publicID="smi:geonet.org.nz/ori/500035/GROPE">
+                <type>hypocenter</type>
+                <evaluationMode>manual</evaluationMode>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <referenceSystemID>smi:ogc.def.crs/EPSG/4272</referenceSystemID>
+                <time>
+                    <value>2011-07-06T01:52:11.181Z</value>
+                    <uncertainty>0.1711</uncertainty>
+                </time>
+                <latitude>
+                    <value>-41.36678</value>
+                    <uncertainty>0.01639</uncertainty>
+                </latitude>
+                <longitude>
+                    <value>173.55481</value>
+                    <uncertainty>0.01295</uncertainty>
+                </longitude>
+                <depth>
+                    <value>70.8886</value>
+                    <uncertainty>1.6532</uncertainty>
+                </depth>
+                <depthType>from location</depthType>
+                <quality>
+                    <azimuthalGap>51</azimuthalGap>
+                    <minimumDistance>22.04</minimumDistance>
+                    <maximumDistance>251.21</maximumDistance>
+                    <usedPhaseCount>35</usedPhaseCount>
+                    <usedStationCount>30</usedStationCount>
+                    <standardError>0.17864</standardError>
+                </quality>
+                <arrival weight="0.49">
+                    <pickID>smi:geonet.org.nz/pick/8095525</pickID>
+                    <phase>PN</phase>
+                    <azimuth>318</azimuth>
+                    <distance>22.0176</distance>
+                    <residual>-0.3</residual>
+                </arrival>
+                <arrival weight="0.49">
+                    <pickID>smi:geonet.org.nz/pick/8095529</pickID>
+                    <phase>PN</phase>
+                    <azimuth>146</azimuth>
+                    <distance>47.1488</distance>
+                    <residual>0.414</residual>
+                </arrival>
+                <arrival weight="0.48">
+                    <pickID>smi:geonet.org.nz/pick/8095532</pickID>
+                    <phase>PN</phase>
+                    <azimuth>93</azimuth>
+                    <distance>110.199</distance>
+                    <residual>-0.056</residual>
+                </arrival>
+                <arrival weight="0.44">
+                    <pickID>smi:geonet.org.nz/pick/8095533</pickID>
+                    <phase>PN</phase>
+                    <azimuth>231</azimuth>
+                    <distance>69.9448</distance>
+                    <residual>-0.098</residual>
+                </arrival>
+                <arrival weight="0.47">
+                    <pickID>smi:geonet.org.nz/pick/8095535</pickID>
+                    <phase>PN</phase>
+                    <azimuth>78</azimuth>
+                    <distance>129.993</distance>
+                    <residual>0.153</residual>
+                </arrival>
+                <arrival weight="0.46">
+                    <pickID>smi:geonet.org.nz/pick/8095536</pickID>
+                    <phase>PN</phase>
+                    <azimuth>64</azimuth>
+                    <distance>126.879</distance>
+                    <residual>0.696</residual>
+                </arrival>
+                <arrival weight="0.46">
+                    <pickID>smi:geonet.org.nz/pick/8095537</pickID>
+                    <phase>PN</phase>
+                    <azimuth>100</azimuth>
+                    <distance>143.893</distance>
+                    <residual>-0.471</residual>
+                </arrival>
+                <arrival weight="0.43">
+                    <pickID>smi:geonet.org.nz/pick/8095538</pickID>
+                    <phase>PN</phase>
+                    <azimuth>91</azimuth>
+                    <distance>156.681</distance>
+                    <residual>-0.604</residual>
+                </arrival>
+                <arrival weight="0.43">
+                    <pickID>smi:geonet.org.nz/pick/8095539</pickID>
+                    <phase>PN</phase>
+                    <azimuth>66</azimuth>
+                    <distance>148.786</distance>
+                    <residual>0.339</residual>
+                </arrival>
+                <arrival weight="0.34">
+                    <pickID>smi:geonet.org.nz/pick/8095540</pickID>
+                    <phase>PN</phase>
+                    <azimuth>85</azimuth>
+                    <distance>101.970</distance>
+                    <residual>0.457</residual>
+                </arrival>
+                <arrival weight="0.45">
+                    <pickID>smi:geonet.org.nz/pick/8095542</pickID>
+                    <phase>PN</phase>
+                    <azimuth>253</azimuth>
+                    <distance>152.010</distance>
+                    <residual>0.114</residual>
+                </arrival>
+                <arrival weight="0.37">
+                    <pickID>smi:geonet.org.nz/pick/8095543</pickID>
+                    <phase>PN</phase>
+                    <azimuth>73</azimuth>
+                    <distance>172.694</distance>
+                    <residual>-0.431</residual>
+                </arrival>
+                <arrival weight="0.41">
+                    <pickID>smi:geonet.org.nz/pick/8095544</pickID>
+                    <phase>PN</phase>
+                    <azimuth>83</azimuth>
+                    <distance>164.798</distance>
+                    <residual>-0.569</residual>
+                </arrival>
+                <arrival weight="0.31">
+                    <pickID>smi:geonet.org.nz/pick/8095545</pickID>
+                    <phase>PN</phase>
+                    <azimuth>92</azimuth>
+                    <distance>178.476</distance>
+                    <residual>-0.726</residual>
+                </arrival>
+                <arrival weight="0.37">
+                    <pickID>smi:geonet.org.nz/pick/8095546</pickID>
+                    <phase>PN</phase>
+                    <azimuth>82</azimuth>
+                    <distance>197.936</distance>
+                    <residual>-0.87</residual>
+                </arrival>
+                <arrival weight="0.31">
+                    <pickID>smi:geonet.org.nz/pick/8095549</pickID>
+                    <phase>PN</phase>
+                    <azimuth>214</azimuth>
+                    <distance>189.930</distance>
+                    <residual>-0.094</residual>
+                </arrival>
+                <arrival weight="0.36">
+                    <pickID>smi:geonet.org.nz/pick/8095550</pickID>
+                    <phase>PN</phase>
+                    <azimuth>50</azimuth>
+                    <distance>196.713</distance>
+                    <residual>1.103</residual>
+                </arrival>
+                <arrival weight="0.13">
+                    <pickID>smi:geonet.org.nz/pick/8095551</pickID>
+                    <phase>PN</phase>
+                    <azimuth>72</azimuth>
+                    <distance>206.610</distance>
+                    <residual>-0.611</residual>
+                </arrival>
+                <arrival weight="0.19">
+                    <pickID>smi:geonet.org.nz/pick/8095552</pickID>
+                    <phase>PN</phase>
+                    <azimuth>67</azimuth>
+                    <distance>222.511</distance>
+                    <residual>-0.485</residual>
+                </arrival>
+                <arrival weight="0.26">
+                    <pickID>smi:geonet.org.nz/pick/8095553</pickID>
+                    <phase>PN</phase>
+                    <azimuth>61</azimuth>
+                    <distance>215.617</distance>
+                    <residual>0.201</residual>
+                </arrival>
+                <arrival weight="0.05">
+                    <pickID>smi:geonet.org.nz/pick/8095554</pickID>
+                    <phase>PN</phase>
+                    <azimuth>72</azimuth>
+                    <distance>238.858</distance>
+                    <residual>-1.103</residual>
+                </arrival>
+                <arrival weight="0.04">
+                    <pickID>smi:geonet.org.nz/pick/8095556</pickID>
+                    <phase>PN</phase>
+                    <azimuth>55</azimuth>
+                    <distance>249.866</distance>
+                    <residual>-0.36</residual>
+                </arrival>
+                <arrival weight="0.03">
+                    <pickID>smi:geonet.org.nz/pick/8095557</pickID>
+                    <phase>PN</phase>
+                    <azimuth>63</azimuth>
+                    <distance>250.200</distance>
+                    <residual>-1.012</residual>
+                </arrival>
+                <arrival weight="0.01">
+                    <pickID>smi:geonet.org.nz/pick/8095558</pickID>
+                    <phase>PN</phase>
+                    <azimuth>209</azimuth>
+                    <distance>251.201</distance>
+                    <residual>-1.194</residual>
+                </arrival>
+                <arrival weight="0.05">
+                    <pickID>smi:geonet.org.nz/pick/8095560</pickID>
+                    <phase>PN</phase>
+                    <azimuth>7</azimuth>
+                    <distance>233.854</distance>
+                    <residual>2.042</residual>
+                </arrival>
+                <arrival weight="0.14">
+                    <pickID>smi:geonet.org.nz/pick/8095567</pickID>
+                    <phase>PN</phase>
+                    <azimuth>66</azimuth>
+                    <distance>187.372</distance>
+                    <residual>-0.754</residual>
+                </arrival>
+                <arrival weight="0.24">
+                    <pickID>smi:geonet.org.nz/pick/8095783</pickID>
+                    <phase>PN</phase>
+                    <azimuth>128</azimuth>
+                    <distance>69.6112</distance>
+                    <residual>0.865</residual>
+                </arrival>
+                <arrival weight="0.42">
+                    <pickID>smi:geonet.org.nz/pick/8095784</pickID>
+                    <phase>SN</phase>
+                    <azimuth>318</azimuth>
+                    <distance>22.0176</distance>
+                    <residual>-0.565</residual>
+                </arrival>
+                <arrival weight="0.44">
+                    <pickID>smi:geonet.org.nz/pick/8095785</pickID>
+                    <phase>PN</phase>
+                    <azimuth>103</azimuth>
+                    <distance>33.2488</distance>
+                    <residual>0.052</residual>
+                </arrival>
+                <arrival weight="0.42">
+                    <pickID>smi:geonet.org.nz/pick/8095786</pickID>
+                    <phase>SN</phase>
+                    <azimuth>103</azimuth>
+                    <distance>33.2488</distance>
+                    <residual>-0.261</residual>
+                </arrival>
+                <arrival weight="0.42">
+                    <pickID>smi:geonet.org.nz/pick/8095787</pickID>
+                    <phase>SN</phase>
+                    <azimuth>146</azimuth>
+                    <distance>47.1488</distance>
+                    <residual>0.247</residual>
+                </arrival>
+                <arrival weight="0.48">
+                    <pickID>smi:geonet.org.nz/pick/8095788</pickID>
+                    <phase>PN</phase>
+                    <azimuth>74</azimuth>
+                    <distance>62.8280</distance>
+                    <residual>0.609</residual>
+                </arrival>
+                <arrival weight="0.42">
+                    <pickID>smi:geonet.org.nz/pick/8095789</pickID>
+                    <phase>SN</phase>
+                    <azimuth>74</azimuth>
+                    <distance>62.8280</distance>
+                    <residual>0.077</residual>
+                </arrival>
+                <arrival weight="0.43">
+                    <pickID>smi:geonet.org.nz/pick/8095790</pickID>
+                    <phase>PN</phase>
+                    <azimuth>304</azimuth>
+                    <distance>104.973</distance>
+                    <residual>0.11</residual>
+                </arrival>
+                <arrival weight="0.29">
+                    <pickID>smi:geonet.org.nz/pick/8095791</pickID>
+                    <phase>SN</phase>
+                    <azimuth>231</azimuth>
+                    <distance>69.9448</distance>
+                    <residual>-0.274</residual>
+                </arrival>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697048</id>
+                    <mag>
+                        <value>4.16</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="CMWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697053</id>
+                    <mag>
+                        <value>4.172</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697053</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="CMWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697057</id>
+                    <mag>
+                        <value>4.111</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697057</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="CMWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697084</id>
+                    <mag>
+                        <value>4.549</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="TUWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697089</id>
+                    <mag>
+                        <value>4.438</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697089</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="TUWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697093</id>
+                    <mag>
+                        <value>4.408</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697093</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="TUWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697096</id>
+                    <mag>
+                        <value>4.32</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="BSWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697101</id>
+                    <mag>
+                        <value>3.857</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697101</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="BSWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697105</id>
+                    <mag>
+                        <value>3.998</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697105</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="BSWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697108</id>
+                    <mag>
+                        <value>4.538</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="TCW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697113</id>
+                    <mag>
+                        <value>4.081</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697113</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="TCW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697117</id>
+                    <mag>
+                        <value>4.188</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697117</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="TCW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697132</id>
+                    <mag>
+                        <value>4.153</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="BHW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697137</id>
+                    <mag>
+                        <value>3.847</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697137</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="BHW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697141</id>
+                    <mag>
+                        <value>3.903</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697141</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="BHW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697168</id>
+                    <mag>
+                        <value>4.152</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="CAW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697173</id>
+                    <mag>
+                        <value>4.007</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697173</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="CAW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697177</id>
+                    <mag>
+                        <value>4.07</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697177</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="CAW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697180</id>
+                    <mag>
+                        <value>4.217</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="KIW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697185</id>
+                    <mag>
+                        <value>4.028</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697185</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="KIW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697189</id>
+                    <mag>
+                        <value>3.923</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697189</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="KIW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697204</id>
+                    <mag>
+                        <value>3.718</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="PAWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697209</id>
+                    <mag>
+                        <value>3.748</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697209</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="PAWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697213</id>
+                    <mag>
+                        <value>3.805</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697213</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="PAWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697288</id>
+                    <mag>
+                        <value>3.699</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="TRWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697293</id>
+                    <mag>
+                        <value>3.636</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697293</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="TRWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697297</id>
+                    <mag>
+                        <value>3.635</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697297</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="TRWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697353</id>
+                    <mag>
+                        <value>3.927</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="TIWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697358</id>
+                    <mag>
+                        <value>3.927</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697358</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="TIWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697362</id>
+                    <mag>
+                        <value>4.005</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697362</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="TIWZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697393</id>
+                    <mag>
+                        <value>3.85</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697393</stationAmplitudeID>
+                    <waveformID channelCode="HHN" stationCode="BFZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697395</id>
+                    <mag>
+                        <value>3.537</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697395</stationAmplitudeID>
+                    <waveformID channelCode="HHE" stationCode="BFZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697396</id>
+                    <mag>
+                        <value>4.028</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="HHZ" stationCode="TSZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697401</id>
+                    <mag>
+                        <value>4.063</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697401</stationAmplitudeID>
+                    <waveformID channelCode="HHN" stationCode="TSZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697405</id>
+                    <mag>
+                        <value>3.961</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33697405</stationAmplitudeID>
+                    <waveformID channelCode="HHE" stationCode="TSZ" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33700049</id>
+                    <mag>
+                        <value>3.819</value>
+                    </mag>
+                    <type>ML</type>
+                    <waveformID channelCode="EHZ" stationCode="MTW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33700054</id>
+                    <mag>
+                        <value>3.553</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33700054</stationAmplitudeID>
+                    <waveformID channelCode="EHN" stationCode="MTW" networkCode="NZ"/>
+                </stationMagnitude>
+                <stationMagnitude>
+                    <id>smi:geonet.org.nz/stnmag/500035/GROPE/ML/33700058</id>
+                    <mag>
+                        <value>3.631</value>
+                    </mag>
+                    <type>ML</type>
+                    <stationAmplitudeID>smi:geonet.org.nz/amp/33700058</stationAmplitudeID>
+                    <waveformID channelCode="EHE" stationCode="MTW" networkCode="NZ"/>
+                </stationMagnitude>
+            </origin>
+            <pick publicID="smi:geonet.org.nz/pick/8095525">
+                <time>
+                    <value>2011-07-06T01:52:21.438Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="NNZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095529">
+                <time>
+                    <value>2011-07-06T01:52:23.658Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="BSWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095532">
+                <time>
+                    <value>2011-07-06T01:52:29.368Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="BHW" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095533">
+                <time>
+                    <value>2011-07-06T01:52:25.113Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="THZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095535">
+                <time>
+                    <value>2011-07-06T01:52:31.818Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="CAW" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095536">
+                <time>
+                    <value>2011-07-06T01:52:32.008Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="KIW" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095537">
+                <time>
+                    <value>2011-07-06T01:52:32.808Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="PLWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095538">
+                <time>
+                    <value>2011-07-06T01:52:34.168Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="PAWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095539">
+                <time>
+                    <value>2011-07-06T01:52:34.188Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="OGWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095540">
+                <time>
+                    <value>2011-07-06T01:52:28.978Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="WEL" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095542">
+                <time>
+                    <value>2011-07-06T01:52:34.348Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="DSZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095543">
+                <time>
+                    <value>2011-07-06T01:52:36.238Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="HOWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095544">
+                <time>
+                    <value>2011-07-06T01:52:35.168Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="MTW" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095545">
+                <time>
+                    <value>2011-07-06T01:52:36.638Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TRWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095546">
+                <time>
+                    <value>2011-07-06T01:52:38.828Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TMWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095547">
+                <time>
+                    <value>2011-07-06T01:53:04.798Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="TLZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095549">
+                <time>
+                    <value>2011-07-06T01:52:38.637Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="LTZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095550">
+                <time>
+                    <value>2011-07-06T01:52:40.648Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="OHWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095551">
+                <time>
+                    <value>2011-07-06T01:52:40.058Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TIWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095552">
+                <time>
+                    <value>2011-07-06T01:52:42.098Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="PRWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095553">
+                <time>
+                    <value>2011-07-06T01:52:41.968Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="POWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095554">
+                <time>
+                    <value>2011-07-06T01:52:43.458Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="BFZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095555">
+                <time>
+                    <value>2011-07-06T01:52:43.818Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="NMEZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095556">
+                <time>
+                    <value>2011-07-06T01:52:45.529Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="TSZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095557">
+                <time>
+                    <value>2011-07-06T01:52:44.918Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="DVHZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095558">
+                <time>
+                    <value>2011-07-06T01:52:44.868Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="OXZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095559">
+                <time>
+                    <value>2011-07-06T01:52:45.037Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="WAZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095560">
+                <time>
+                    <value>2011-07-06T01:52:45.998Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="NWEZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095561">
+                <time>
+                    <value>2011-07-06T01:52:45.888Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="KHEZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095562">
+                <time>
+                    <value>2011-07-06T01:52:46.288Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="MQZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095564">
+                <time>
+                    <value>2011-07-06T01:52:47.928Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="MHEZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095565">
+                <time>
+                    <value>2011-07-06T01:53:23.458Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="KUZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095566">
+                <time>
+                    <value>2011-07-06T01:52:48.268Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="PNHZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095567">
+                <time>
+                    <value>2011-07-06T01:52:37.678Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="MRZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095569">
+                <time>
+                    <value>2011-07-06T01:52:50.938Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="MOVZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095570">
+                <time>
+                    <value>2011-07-06T01:52:51.947Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="WVZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095571">
+                <time>
+                    <value>2011-07-06T01:52:51.978Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="BHHZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095572">
+                <time>
+                    <value>2011-07-06T01:52:51.678Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="WNVZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095574">
+                <time>
+                    <value>2011-07-06T01:52:53.018Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="FWVZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095575">
+                <time>
+                    <value>2011-07-06T01:52:53.408Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="WHVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095576">
+                <time>
+                    <value>2011-07-06T01:52:53.998Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="OTVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095577">
+                <time>
+                    <value>2011-07-06T01:52:52.978Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="TRVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095578">
+                <time>
+                    <value>2011-07-06T01:52:55.398Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TUVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095579">
+                <time>
+                    <value>2011-07-06T01:52:57.879Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="HIZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095580">
+                <time>
+                    <value>2011-07-06T01:52:55.849Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="RPZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095581">
+                <time>
+                    <value>2011-07-06T01:52:56.008Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="KRVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095582">
+                <time>
+                    <value>2011-07-06T01:52:56.098Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="WTVZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095583">
+                <time>
+                    <value>2011-07-06T01:53:02.088Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="FOZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095584">
+                <time>
+                    <value>2011-07-06T01:53:06.608Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="LBZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095585">
+                <time>
+                    <value>2011-07-06T01:53:12.088Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="ODZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095586">
+                <time>
+                    <value>2011-07-06T01:53:10.698Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="TOZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095588">
+                <time>
+                    <value>2011-07-06T01:53:14.888Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="JCZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095589">
+                <time>
+                    <value>2011-07-06T01:53:16.408Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="AWAZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095590">
+                <time>
+                    <value>2011-07-06T01:53:34.149Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="MLZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095591">
+                <time>
+                    <value>2011-07-06T01:53:17.318Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="MKAZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095592">
+                <time>
+                    <value>2011-07-06T01:53:29.038Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="TUZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095593">
+                <time>
+                    <value>2011-07-06T01:53:18.928Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="WKZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095594">
+                <time>
+                    <value>2011-07-06T01:53:40.878Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="OUZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>automatic</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095783">
+                <time>
+                    <value>2011-07-06T01:52:26.048Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="CMWZ" networkCode="NZ"/>
+                <onset>emergent</onset>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095784">
+                <time>
+                    <value>2011-07-06T01:52:28.978Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHN" stationCode="NNZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095785">
+                <time>
+                    <value>2011-07-06T01:52:22.348Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TUWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095786">
+                <time>
+                    <value>2011-07-06T01:52:30.268Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHN" stationCode="TUWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095787">
+                <time>
+                    <value>2011-07-06T01:52:32.428Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHN" stationCode="BSWZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095788">
+                <time>
+                    <value>2011-07-06T01:52:25.168Z</value>
+                    <lowerUncertainty>0.0</lowerUncertainty>
+                    <upperUncertainty>0.1</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHZ" stationCode="TCW" networkCode="NZ"/>
+                <polarity>down</polarity>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095789">
+                <time>
+                    <value>2011-07-06T01:52:34.558Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="EHN" stationCode="TCW" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095790">
+                <time>
+                    <value>2011-07-06T01:52:28.968Z</value>
+                    <lowerUncertainty>0.1</lowerUncertainty>
+                    <upperUncertainty>0.25</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="QRZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095791">
+                <time>
+                    <value>2011-07-06T01:52:35.353Z</value>
+                    <lowerUncertainty>0.5</lowerUncertainty>
+                    <upperUncertainty>1.0</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHN" stationCode="THZ" networkCode="NZ"/>
+                <evaluationStatus>confirmed</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <pick publicID="smi:geonet.org.nz/pick/8095792">
+                <time>
+                    <value>2011-07-06T01:52:50.371Z</value>
+                    <lowerUncertainty>0.25</lowerUncertainty>
+                    <upperUncertainty>0.5</upperUncertainty>
+                </time>
+                <waveformID channelCode="HHZ" stationCode="VRZ" networkCode="NZ"/>
+                <evaluationStatus>rejected</evaluationStatus>
+                <evaluationMode>manual</evaluationMode>
+            </pick>
+            <magnitude publicID="smi:geonet.org.nz/mag/500035/GROPE/ML">
+                <mag>
+                    <value>3.888</value>
+                    <uncertainty>0.174</uncertainty>
+                </mag>
+                <type>ML</type>
+                <stationCount>13</stationCount>
+                <originID>smi:geonet.org.nz/ori/500035/GROPE</originID>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697053</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697057</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697089</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697093</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697101</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697105</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697113</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697117</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697137</stationMagnitudeReference>
+                <stationMagnitudeReference weight="0.5">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697141</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697173</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697177</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697185</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697189</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697209</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697213</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697293</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697297</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697358</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697362</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697393</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697395</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697401</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33697405</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33700054</stationMagnitudeReference>
+                <stationMagnitudeReference weight="1.0">smi:geonet.org.nz/stnmag/500035/GROPE/ML/33700058</stationMagnitudeReference>
+            </magnitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697053">
+                <amp>
+                    <value>4.610</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697057">
+                <amp>
+                    <value>4.002</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697089">
+                <amp>
+                    <value>10.177</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697093">
+                <amp>
+                    <value>9.497</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697101">
+                <amp>
+                    <value>1.118</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697105">
+                <amp>
+                    <value>1.547</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697113">
+                <amp>
+                    <value>4.362</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697117">
+                <amp>
+                    <value>5.584</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697137">
+                <amp>
+                    <value>0.888</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697141">
+                <amp>
+                    <value>1.009</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697173">
+                <amp>
+                    <value>2.142</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697177">
+                <amp>
+                    <value>2.480</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697185">
+                <amp>
+                    <value>1.305</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697189">
+                <amp>
+                    <value>1.025</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697209">
+                <amp>
+                    <value>0.555</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697213">
+                <amp>
+                    <value>0.558</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697293">
+                <amp>
+                    <value>0.273</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697297">
+                <amp>
+                    <value>0.272</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697358">
+                <amp>
+                    <value>0.606</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697362">
+                <amp>
+                    <value>0.724</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697393">
+                <amp>
+                    <value>0.237</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697395">
+                <amp>
+                    <value>0.115</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697401">
+                <amp>
+                    <value>0.439</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33697405">
+                <amp>
+                    <value>0.348</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33700054">
+                <amp>
+                    <value>0.410</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+            <amplitude publicID="smi:geonet.org.nz/amp/33700058">
+                <amp>
+                    <value>0.491</value>
+                </amp>
+                <type>AL</type>
+            </amplitude>
+        </event>
+    </eventParameters>
+</quakeml>
