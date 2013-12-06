@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <EventParameters>
+    <pick publicID="20130816.023108.04-NZ.CMWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:08.048396Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="CMWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:09.259875Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023110.72-NZ.BSWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:10.728393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="BSWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:13.384362Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023113.29-NZ.TUWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:13.298393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:14.289018Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023933.571355.15437">
+      <time>
+        <value>2013-08-16T02:31:21.838311Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EHE"/>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:39:33.571582Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023113.53-NZ.BWRS.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:13.53Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="BWRS" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:17.509436Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023116.49-NZ.TCW.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:16.498393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:20.929857Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023615.946357.14817">
+      <time>
+        <value>2013-08-16T02:31:28.236009Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EHE"/>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:36:15.946665Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023615.94684.14818">
+      <time>
+        <value>2013-08-16T02:31:31.096265Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="MKVS" locationCode="20" channelCode="BN2"/>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:36:15.946944Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023933.57168.15438">
+      <time>
+        <value>2013-08-16T02:31:22.131427Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="MKVS" locationCode="20" channelCode="BN2"/>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:39:33.571779Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023118.92-NZ.BHW.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:18.928395Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="BHW" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:20.324422Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023119.10-NZ.WEL.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:19.108394Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WEL" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:29.179257Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023615.947066.14819">
+      <time>
+        <value>2013-08-16T02:31:34.005584Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="NEWS" locationCode="20" channelCode="BN2"/>
+      <phaseHint>S</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:36:15.94717Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="Pick#20130816023807.506159.15095">
+      <time>
+        <value>2013-08-16T02:31:25.802108Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="NEWS" locationCode="20" channelCode="BN2"/>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>manual</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>annak@scguiz-ak</author>
+        <creationTime>2013-08-16T02:38:07.506316Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023120.33-NZ.PVCS.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:20.339592Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="PVCS" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:27.872459Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023121.58-NZ.WANS.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:21.589999Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WANS" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:23.243975Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023121.03-NZ.NNZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:21.03839Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="NNZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:37.431083Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023121.60-NZ.FAIS.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:21.609999Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="FAIS" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:25.657521Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023123.08-NZ.KHZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:23.088393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="KHZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:28.878578Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023123.55-NZ.PLWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:23.558394Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="PLWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:26.168526Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023123.83-NZ.MSWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:23.838396Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="MSWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:26.163279Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023124.29-NZ.CAW.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:24.29839Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="CAW" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:35.221129Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023124.26-NZ.THZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:24.262884Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="THZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:35.723574Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023123.97-NZ.DUWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:23.978392Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="DUWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:31.091647Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023126.09-NZ.PAWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:26.098393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="PAWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:27.268517Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023128.13-NZ.MTW.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:28.138388Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="MTW" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:31.294294Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023128.46-NZ.OGWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:28.468396Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="OGWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:31.096581Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023128.32-NZ.TRWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:28.32839Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TRWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:32.299673Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023131.31-NZ.HSES.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:31.31Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="HSES" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:44.770943Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023130.54-NZ.HOWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:30.548393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="HOWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:34.318438Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023131.82-NZ.TMWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:31.828393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TMWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:34.314497Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023133.08-NZ.GVZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:33.088394Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="GVZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:41.553233Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023133.30-NZ.MRZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:33.308393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="MRZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:36.627836Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023134.36-NZ.QRZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:34.368393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="QRZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:39.038776Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023134.41-NZ.TIWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:34.418396Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="TIWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:38.335719Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023135.85-NZ.WAKC.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:35.85Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="WAKC" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:38.636889Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023136.70-NZ.CPWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:36.708394Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="CPWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:43.161676Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023136.94-NZ.PNMS.20.BNZ">
+      <time>
+        <value>2013-08-16T02:31:36.948374Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="PNMS" locationCode="20" channelCode="BNZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:43.060736Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023138.34-NZ.DSZ.10.HHZ">
+      <time>
+        <value>2013-08-16T02:31:38.348391Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="DSZ" locationCode="10" channelCode="HHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:42.759554Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023138.78-NZ.OHWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:38.788393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="OHWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:42.155396Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023137.01-NZ.PRWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:37.018392Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="PRWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:40.345515Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023137.34-NZ.POWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:37.348399Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="POWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:41.352943Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023137.88-NZ.AMCZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:37.888396Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="AMCZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:39.341772Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023140.36-NZ.DVHZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:40.368392Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="DVHZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:45.173625Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20130816.023141.83-NZ.ANWZ.10.EHZ">
+      <time>
+        <value>2013-08-16T02:31:41.838393Z</value>
+      </time>
+      <waveformID networkCode="NZ" stationCode="ANWZ" locationCode="10" channelCode="EHZ"/>
+      <methodID>Trigger</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:44.369402Z</creationTime>
+      </creationInfo>
+    </pick>
+    <amplitude publicID="20130816.023108.04-NZ.CMWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>18785.033</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:17.388395Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>184941.18</snr>
+      <pickID>20130816.023108.04-NZ.CMWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="CMWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:53.131593Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023110.72-NZ.BSWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>8447.5932</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:19.618392Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>204827.44</snr>
+      <pickID>20130816.023110.72-NZ.BSWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="BSWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:42.36615Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023113.29-NZ.TUWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3170.7075</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:25.788394Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>116923.36</snr>
+      <pickID>20130816.023113.29-NZ.TUWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:46.292411Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023116.49-NZ.TCW.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>6179.2252</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:29.208394Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>177641.59</snr>
+      <pickID>20130816.023116.49-NZ.TCW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:47.901878Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023118.92-NZ.BHW.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2730.7424</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:35.128396Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>91415.628</snr>
+      <pickID>20130816.023118.92-NZ.BHW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="BHW" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:50.11509Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023119.10-NZ.WEL.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>5016.4955</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:35.878394Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>17982.037</snr>
+      <pickID>20130816.023119.10-NZ.WEL.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WEL" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:46.998262Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023121.03-NZ.NNZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1665.1988</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:42.368391Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>5242.6691</snr>
+      <pickID>20130816.023121.03-NZ.NNZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="NNZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:57.255742Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023123.08-NZ.KHZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1589.788</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:30.088394Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>5545.8188</snr>
+      <pickID>20130816.023123.08-NZ.KHZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="KHZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:15.370636Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023123.55-NZ.PLWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>4100.1805</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:44.078393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>100817.15</snr>
+      <pickID>20130816.023123.55-NZ.PLWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="PLWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:54.64295Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023123.83-NZ.MSWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3166.6313</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:46.598396Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>100510.53</snr>
+      <pickID>20130816.023123.83-NZ.MSWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="MSWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:55.244831Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023123.97-NZ.DUWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3802.1245</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:45.288392Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>49177.475</snr>
+      <pickID>20130816.023123.97-NZ.DUWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="DUWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:07.516894Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023124.26-NZ.THZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1859.3013</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:51.822884Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>5846.4576</snr>
+      <pickID>20130816.023124.26-NZ.THZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="THZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:00.071306Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023124.29-NZ.CAW.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>6639.293</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:47.18839Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>110806.73</snr>
+      <pickID>20130816.023124.29-NZ.CAW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="CAW" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:55.344987Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023126.09-NZ.PAWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2650.0477</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:48.888393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>82395.928</snr>
+      <pickID>20130816.023126.09-NZ.PAWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="PAWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:57.457117Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023128.13-NZ.MTW.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>4349.3972</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:54.008388Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>161659.17</snr>
+      <pickID>20130816.023128.13-NZ.MTW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="MTW" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:01.277766Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023128.32-NZ.TRWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2159.884</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:58.138391Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>53305.997</snr>
+      <pickID>20130816.023128.32-NZ.TRWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TRWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:33:59.267374Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023128.46-NZ.OGWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3783.6956</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:53.548396Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>130943.03</snr>
+      <pickID>20130816.023128.46-NZ.OGWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="OGWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:01.289107Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023130.54-NZ.HOWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2097.9962</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:57.748393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>66548.827</snr>
+      <pickID>20130816.023130.54-NZ.HOWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="HOWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:02.285075Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023131.82-NZ.TMWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1219.5132</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:10.308393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>37433.037</snr>
+      <pickID>20130816.023131.82-NZ.TMWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TMWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:03.294953Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023133.08-NZ.GVZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>815.53936</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:00.718393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>2214.8252</snr>
+      <pickID>20130816.023133.08-NZ.GVZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="GVZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:08.332546Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023133.30-NZ.MRZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2785.1035</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:06.938393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>15683.146</snr>
+      <pickID>20130816.023133.30-NZ.MRZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="MRZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:07.013434Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023134.36-NZ.QRZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1303.028</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:02.258393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>2502.7456</snr>
+      <pickID>20130816.023134.36-NZ.QRZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="QRZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:06.614014Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023134.41-NZ.TIWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1767.9717</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:15.048395Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>74992.227</snr>
+      <pickID>20130816.023134.41-NZ.TIWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TIWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:06.312103Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023136.70-NZ.CPWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1645.5552</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:21.188393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>20671.246</snr>
+      <pickID>20130816.023136.70-NZ.CPWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="CPWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:13.05737Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023137.01-NZ.PRWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2569.439</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:21.228392Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>62225.697</snr>
+      <pickID>20130816.023137.01-NZ.PRWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="PRWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:10.338168Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023137.34-NZ.POWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2749.9978</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:19.088398Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>64858.973</snr>
+      <pickID>20130816.023137.34-NZ.POWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="POWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:08.322718Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023137.88-NZ.AMCZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>722.68234</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:30.488396Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>3741.2141</snr>
+      <pickID>20130816.023137.88-NZ.AMCZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="AMCZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:10.247365Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023138.34-NZ.DSZ.10.HHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1070.3742</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:15.96839Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>2786.5776</snr>
+      <pickID>20130816.023138.34-NZ.DSZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="DSZ" locationCode="10" channelCode="HHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:46.696607Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023138.78-NZ.OHWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>3113.305</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:09.648394Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>8226.9507</snr>
+      <pickID>20130816.023138.78-NZ.OHWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="OHWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:37:04.976398Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023140.36-NZ.DVHZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>716.02913</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:29.048393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>47120.696</snr>
+      <pickID>20130816.023140.36-NZ.DVHZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="DVHZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:12.250454Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20130816.023141.83-NZ.ANWZ.10.EHZ.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>907.10266</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:32:44.798393Z</reference>
+        <begin>0</begin>
+        <end>0</end>
+      </timeWindow>
+      <snr>18009.32</snr>
+      <pickID>20130816.023141.83-NZ.ANWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="ANWZ" locationCode="10" channelCode="EHZ"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scautopick@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:34:14.365436Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816023157.638447.190633">
+      <type>ML</type>
+      <amplitude>
+        <value>25757.338</value>
+        <lowerUncertainty>568.45488</lowerUncertainty>
+        <upperUncertainty>568.45488</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:16.973395Z</reference>
+        <begin>-0.044999</begin>
+        <end>0.045001</end>
+      </timeWindow>
+      <pickID>20130816.023108.04-NZ.CMWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="CMWZ" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:57.638571Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816023152.451461.190627">
+      <type>ML</type>
+      <amplitude>
+        <value>9797.2223</value>
+        <lowerUncertainty>79.567681</lowerUncertainty>
+        <upperUncertainty>79.567681</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:21.848392Z</reference>
+        <begin>-2.6</begin>
+        <end>2.6</end>
+      </timeWindow>
+      <pickID>20130816.023110.72-NZ.BSWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="BSWZ" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:52.451543Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816023158.342437.190635">
+      <type>ML</type>
+      <amplitude>
+        <value>10177.205</value>
+        <lowerUncertainty>1576.3837</lowerUncertainty>
+        <upperUncertainty>1576.3837</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:24.763392Z</reference>
+        <begin>-1.224999</begin>
+        <end>1.225001</end>
+      </timeWindow>
+      <pickID>20130816.023113.29-NZ.TUWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:58.34258Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816023212.774827.190642">
+      <type>ML</type>
+      <amplitude>
+        <value>15600.866</value>
+        <lowerUncertainty>3331.8537</lowerUncertainty>
+        <upperUncertainty>3331.8537</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:29.643393Z</reference>
+        <begin>-0.035</begin>
+        <end>0.035001</end>
+      </timeWindow>
+      <pickID>20130816.023116.49-NZ.TCW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:32:12.774934Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816023214.278655.190644">
+      <type>ML</type>
+      <amplitude>
+        <value>6242.8619</value>
+        <lowerUncertainty>592.56009</lowerUncertainty>
+        <upperUncertainty>592.56009</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:34.918395Z</reference>
+        <begin>-0.769999</begin>
+        <end>0.77</end>
+      </timeWindow>
+      <pickID>20130816.023118.92-NZ.BHW.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="BHW" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:32:14.278728Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816024130.094528.192787">
+      <type>ML</type>
+      <amplitude>
+        <value>5212.022</value>
+        <lowerUncertainty>31.186479</lowerUncertainty>
+        <upperUncertainty>31.186479</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:33.398393Z</reference>
+        <begin>-0.319999</begin>
+        <end>0.32</end>
+      </timeWindow>
+      <pickID>20130816.023119.10-NZ.WEL.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="WEL" locationCode="10" channelCode="HH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:41:30.0946Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816024130.077956.192784">
+      <type>ML</type>
+      <amplitude>
+        <value>1750.1261</value>
+        <lowerUncertainty>9.804598</lowerUncertainty>
+        <upperUncertainty>9.804598</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:43.138391Z</reference>
+        <begin>-4.32</begin>
+        <end>4.32</end>
+      </timeWindow>
+      <pickID>20130816.023121.03-NZ.NNZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="NNZ" locationCode="10" channelCode="HH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:41:30.078069Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816024130.106876.192789">
+      <type>ML</type>
+      <amplitude>
+        <value>11104.966</value>
+        <lowerUncertainty>126.55952</lowerUncertainty>
+        <upperUncertainty>126.55952</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:44.323396Z</reference>
+        <begin>-0.154999</begin>
+        <end>0.155001</end>
+      </timeWindow>
+      <pickID>20130816.023123.83-NZ.MSWZ.10.EHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="MSWZ" locationCode="10" channelCode="EH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:41:30.106969Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="Amplitude#20130816024130.129735.192792">
+      <type>ML</type>
+      <amplitude>
+        <value>2248.7077</value>
+        <lowerUncertainty>86.347002</lowerUncertainty>
+        <upperUncertainty>86.347002</upperUncertainty>
+      </amplitude>
+      <timeWindow>
+        <reference>2013-08-16T02:31:45.162883Z</reference>
+        <begin>-1.46</begin>
+        <end>1.460001</end>
+      </timeWindow>
+      <pickID>20130816.023124.26-NZ.THZ.10.HHZ</pickID>
+      <waveformID networkCode="NZ" stationCode="THZ" locationCode="10" channelCode="HH"/>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scamp@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:41:30.129819Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <origin publicID="Origin#20130816041550.248146.19855">
+      <time>
+        <value>2013-08-16T02:31:05.753088Z</value>
+      </time>
+      <latitude>
+        <value>-41.733964</value>
+        <uncertainty>3.8708014</uncertainty>
+      </latitude>
+      <longitude>
+        <value>174.15219</value>
+        <uncertainty>3.2802241</uncertainty>
+      </longitude>
+      <depth>
+        <value>8.1640625</value>
+        <uncertainty>5.4454207</uncertainty>
+      </depth>
+      <methodID>NonLinLoc</methodID>
+      <earthModelID>nz3drx</earthModelID>
+      <quality>
+        <associatedPhaseCount>44</associatedPhaseCount>
+        <usedPhaseCount>15</usedPhaseCount>
+        <usedStationCount>14</usedStationCount>
+        <standardError>0.89044218</standardError>
+        <azimuthalGap>158.10324</azimuthalGap>
+        <secondaryAzimuthalGap>199.08553</secondaryAzimuthalGap>
+        <groundTruthLevel>-</groundTruthLevel>
+        <maximumDistance>0.77166985</maximumDistance>
+        <minimumDistance>0.048837926</minimumDistance>
+        <medianDistance>0.64048056</medianDistance>
+      </quality>
+      <uncertainty>
+        <horizontalUncertainty>6.9106123</horizontalUncertainty>
+        <minHorizontalUncertainty>3.3841214</minHorizontalUncertainty>
+        <maxHorizontalUncertainty>6.9106123</maxHorizontalUncertainty>
+        <azimuthMaxHorizontalUncertainty>142.75945</azimuthMaxHorizontalUncertainty>
+        <confidenceEllipsoid>
+          <semiMajorAxisLength>11.367586</semiMajorAxisLength>
+          <semiMinorAxisLength>2.5992567</semiMinorAxisLength>
+          <semiIntermediateAxisLength>7.7180468</semiIntermediateAxisLength>
+          <majorAxisPlunge>148.821</majorAxisPlunge>
+          <majorAxisAzimuth>-66.232153</majorAxisAzimuth>
+          <majorAxisRotation>70.509468</majorAxisRotation>
+        </confidenceEllipsoid>
+      </uncertainty>
+      <evaluationMode>manual</evaluationMode>
+      <evaluationStatus>confirmed</evaluationStatus>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>ashenden@scguiz-ak</author>
+        <creationTime>2013-08-16T04:15:50.248249Z</creationTime>
+      </creationInfo>
+      <arrival>
+        <pickID>20130816.023108.04-NZ.CMWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>110.08613</azimuth>
+        <distance>0.048837514</distance>
+        <timeResidual>0.593006</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023110.72-NZ.BSWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>274.71038</azimuth>
+        <distance>0.20716608</distance>
+        <timeResidual>0.75179</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023113.29-NZ.TUWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>332.57834</azimuth>
+        <distance>0.34098604</distance>
+        <timeResidual>0.861543</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023933.571355.15437</pickID>
+        <phase>S</phase>
+        <azimuth>332.57834</azimuth>
+        <distance>0.34098604</distance>
+        <timeResidual>4.539094</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023113.53-NZ.BWRS.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>327.80298</azimuth>
+        <distance>0.34760979</distance>
+        <timeResidual>0.966891</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023116.49-NZ.TCW.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>10.13391</azimuth>
+        <distance>0.53008682</distance>
+        <timeResidual>0.495696</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023615.946357.14817</pickID>
+        <phase>S</phase>
+        <azimuth>10.13391</azimuth>
+        <distance>0.53008682</distance>
+        <timeResidual>4.785967</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023615.94684.14818</pickID>
+        <phase>S</phase>
+        <azimuth>41.676066</azimuth>
+        <distance>0.62551902</distance>
+        <timeResidual>4.491488</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023933.57168.15438</pickID>
+        <phase>P</phase>
+        <azimuth>41.676066</azimuth>
+        <distance>0.62551902</distance>
+        <timeResidual>4.300102</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023118.92-NZ.BHW.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>59.166189</azimuth>
+        <distance>0.62779858</distance>
+        <timeResidual>1.040651</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023119.10-NZ.WEL.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>46.020625</azimuth>
+        <distance>0.64307858</distance>
+        <timeResidual>0.939569</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023615.947066.14819</pickID>
+        <phase>S</phase>
+        <azimuth>45.20511</azimuth>
+        <distance>0.70961156</distance>
+        <timeResidual>4.633255</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>Pick#20130816023807.506159.15095</pickID>
+        <phase>P</phase>
+        <azimuth>45.20511</azimuth>
+        <distance>0.70961156</distance>
+        <timeResidual>6.366884</timeResidual>
+        <weight>0</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023120.33-NZ.PVCS.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>46.957857</azimuth>
+        <distance>0.74274406</distance>
+        <timeResidual>0.271262</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023121.58-NZ.WANS.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>49.508614</azimuth>
+        <distance>0.77017819</distance>
+        <timeResidual>0.996067</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023121.03-NZ.NNZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>311.40104</azimuth>
+        <distance>0.77502333</distance>
+        <timeResidual>0.352886</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023121.60-NZ.FAIS.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>48.531298</azimuth>
+        <distance>0.7910776</distance>
+        <timeResidual>0.618251</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023123.08-NZ.KHZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>213.51389</azimuth>
+        <distance>0.81995113</distance>
+        <timeResidual>1.561523</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023123.55-NZ.PLWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>79.167892</azimuth>
+        <distance>0.83970741</distance>
+        <timeResidual>1.61446</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023123.83-NZ.MSWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>69.280718</azimuth>
+        <distance>0.87959451</distance>
+        <timeResidual>1.137111</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023124.29-NZ.CAW.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>47.941189</azimuth>
+        <distance>0.92762825</distance>
+        <timeResidual>0.699627</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023124.26-NZ.THZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>267.72481</azimuth>
+        <distance>0.9309114</distance>
+        <timeResidual>0.571864</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023123.97-NZ.DUWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>349.368</azimuth>
+        <distance>0.94654117</distance>
+        <timeResidual>0.053179</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023126.09-NZ.PAWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>70.234144</azimuth>
+        <distance>1.0161239</distance>
+        <timeResidual>0.783581</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023128.13-NZ.MTW.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>60.855949</azimuth>
+        <distance>1.1630062</distance>
+        <timeResidual>0.027613</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023128.46-NZ.OGWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>40.218362</azimuth>
+        <distance>1.1930835</distance>
+        <timeResidual>-0.129789</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023128.32-NZ.TRWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>74.290111</azimuth>
+        <distance>1.1964621</distance>
+        <timeResidual>-0.366368</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023131.31-NZ.HSES.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>230.65968</azimuth>
+        <distance>1.2595887</distance>
+        <timeResidual>1.67643</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023130.54-NZ.HOWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>51.245898</azimuth>
+        <distance>1.3208171</distance>
+        <timeResidual>0.070378</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023131.82-NZ.TMWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>64.934059</azimuth>
+        <distance>1.4456953</distance>
+        <timeResidual>-0.384686</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023133.08-NZ.GVZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>213.42936</azimuth>
+        <distance>1.4843073</distance>
+        <timeResidual>0.383174</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023133.30-NZ.MRZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>45.509036</azimuth>
+        <distance>1.5165501</distance>
+        <timeResidual>0.143366</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023134.36-NZ.QRZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>306.08694</azimuth>
+        <distance>1.5198338</distance>
+        <timeResidual>1.146881</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023134.41-NZ.TIWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>54.302033</azimuth>
+        <distance>1.6161782</distance>
+        <timeResidual>-0.130271</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023135.85-NZ.WAKC.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>220.50223</azimuth>
+        <distance>1.6304858</distance>
+        <timeResidual>1.124131</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023136.70-NZ.CPWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>62.511542</azimuth>
+        <distance>1.7458312</distance>
+        <timeResidual>0.362931</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023136.94-NZ.PNMS.20.BNZ</pickID>
+        <phase>P</phase>
+        <azimuth>38.87411</azimuth>
+        <distance>1.7494518</distance>
+        <timeResidual>0.588669</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023138.34-NZ.DSZ.10.HHZ</pickID>
+        <phase>P</phase>
+        <azimuth>268.80293</azimuth>
+        <distance>1.7517748</distance>
+        <timeResidual>1.901608</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023138.78-NZ.OHWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>30.260693</azimuth>
+        <distance>1.7625913</distance>
+        <timeResidual>2.260737</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023137.01-NZ.PRWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>49.911739</azimuth>
+        <distance>1.8060669</distance>
+        <timeResidual>-0.137982</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023137.34-NZ.POWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>42.795126</azimuth>
+        <distance>1.8112398</distance>
+        <timeResidual>0.132448</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023137.88-NZ.AMCZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>217.0037</azimuth>
+        <distance>1.8184497</distance>
+        <timeResidual>0.581493</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023140.36-NZ.DVHZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>47.340442</azimuth>
+        <distance>2.0889611</distance>
+        <timeResidual>-0.67705</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <arrival>
+        <pickID>20130816.023141.83-NZ.ANWZ.10.EHZ</pickID>
+        <phase>P</phase>
+        <azimuth>54.750832</azimuth>
+        <distance>2.1638767</distance>
+        <timeResidual>-0.252281</timeResidual>
+        <weight>1</weight>
+      </arrival>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.393037.20018">
+        <magnitude>
+          <value>5.682407</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023108.04-NZ.CMWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="CMWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.393111Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.393298.20019">
+        <magnitude>
+          <value>5.748042</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023110.72-NZ.BSWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="BSWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.393328Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.393516.20020">
+        <magnitude>
+          <value>5.8593728</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023113.29-NZ.TUWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.393549Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.39375.20021">
+        <magnitude>
+          <value>6.5696351</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023116.49-NZ.TCW.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.393781Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.393931.20022">
+        <magnitude>
+          <value>6.2362807</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023118.92-NZ.BHW.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="BHW" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.393961Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.394158.20023">
+        <magnitude>
+          <value>6.5004004</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023119.10-NZ.WEL.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="WEL" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.394192Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.394337.20024">
+        <magnitude>
+          <value>6.144808</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023121.03-NZ.NNZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="NNZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.394367Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.394524.20025">
+        <magnitude>
+          <value>6.2013392</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023123.08-NZ.KHZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="KHZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.39457Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.394775.20026">
+        <magnitude>
+          <value>6.612803</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023123.55-NZ.PLWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="PLWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.394806Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.394954.20027">
+        <magnitude>
+          <value>6.5005975</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023123.83-NZ.MSWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="MSWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.394984Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.395368.20028">
+        <magnitude>
+          <value>6.6323908</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023123.97-NZ.DUWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="DUWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.3954Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.39557.20029">
+        <magnitude>
+          <value>6.304337</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023124.26-NZ.THZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="THZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.395601Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.395746.20030">
+        <magnitude>
+          <value>6.8534589</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023124.29-NZ.CAW.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="CAW" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.395775Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.395936.20031">
+        <magnitude>
+          <value>6.5232536</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023126.09-NZ.PAWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="PAWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.395965Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.396131.20032">
+        <magnitude>
+          <value>6.8314594</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023128.13-NZ.MTW.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="MTW" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.396161Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.396298.20033">
+        <magnitude>
+          <value>6.5344305</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023128.32-NZ.TRWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TRWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.396327Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.396492.20034">
+        <magnitude>
+          <value>6.7779162</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023128.46-NZ.OGWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="OGWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.396529Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.396694.20035">
+        <magnitude>
+          <value>6.5902891</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023130.54-NZ.HOWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="HOWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.396724Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.396875.20036">
+        <magnitude>
+          <value>6.3935105</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023131.82-NZ.TMWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TMWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.396905Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.397117.20037">
+        <magnitude>
+          <value>6.2616978</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023133.08-NZ.GVZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="GVZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.397147Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.397289.20038">
+        <magnitude>
+          <value>6.8309418</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023133.30-NZ.MRZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="MRZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.39732Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.397512.20039">
+        <magnitude>
+          <value>6.5047051</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023134.36-NZ.QRZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="QRZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.397545Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.39771.20040">
+        <magnitude>
+          <value>6.6474754</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023134.41-NZ.TIWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TIWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.39774Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.397915.20041">
+        <magnitude>
+          <value>6.7163125</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023136.70-NZ.CPWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="CPWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.397946Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.398275.20042">
+        <magnitude>
+          <value>6.9178235</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023137.01-NZ.PRWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="PRWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.398309Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.398516.20043">
+        <magnitude>
+          <value>6.9530688</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023137.34-NZ.POWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="POWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.398547Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.398728.20044">
+        <magnitude>
+          <value>6.3806998</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023137.88-NZ.AMCZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="AMCZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.398759Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.398917.20045">
+        <magnitude>
+          <value>6.5295356</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023138.34-NZ.DSZ.10.HHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="DSZ" locationCode="10" channelCode="HHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.398947Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.399122.20046">
+        <magnitude>
+          <value>6.9932217</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023138.78-NZ.OHWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="OHWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.399152Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.399345.20047">
+        <magnitude>
+          <value>6.5549307</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023140.36-NZ.DVHZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="DVHZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.399385Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.399558.20048">
+        <magnitude>
+          <value>6.6634546</value>
+        </magnitude>
+        <type>MLv</type>
+        <amplitudeID>20130816.023141.83-NZ.ANWZ.10.EHZ.MLv</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="ANWZ" locationCode="10" channelCode="EHZ"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.39959Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.400987.20050">
+        <magnitude>
+          <value>5.8194961</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816023157.638447.190633</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="CMWZ" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.401019Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.40283.20051">
+        <magnitude>
+          <value>5.812412</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816023152.451461.190627</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="BSWZ" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.402894Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.414107.20052">
+        <magnitude>
+          <value>6.3658451</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816023158.342437.190635</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TUWZ" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.414176Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.414371.20053">
+        <magnitude>
+          <value>6.9718497</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816023212.774827.190642</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="TCW" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.414402Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.415508.20054">
+        <magnitude>
+          <value>6.5953837</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816023214.278655.190644</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="BHW" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.41554Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.415737.20055">
+        <magnitude>
+          <value>6.5170062</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816024130.094528.192787</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="WEL" locationCode="10" channelCode="HH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.415767Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.41591.20056">
+        <magnitude>
+          <value>6.1664113</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816024130.077956.192784</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="NNZ" locationCode="10" channelCode="HH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.415939Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.416136.20057">
+        <magnitude>
+          <value>7.0455172</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816024130.106876.192789</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="MSWZ" locationCode="10" channelCode="EH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.416166Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <stationMagnitude publicID="StationMagnitude#20130816041558.416311.20058">
+        <magnitude>
+          <value>6.3869203</value>
+        </magnitude>
+        <type>ML</type>
+        <amplitudeID>Amplitude#20130816024130.129735.192792</amplitudeID>
+        <waveformID networkCode="NZ" stationCode="THZ" locationCode="10" channelCode="HH"/>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.41634Z</creationTime>
+        </creationInfo>
+      </stationMagnitude>
+      <magnitude publicID="Magnitude#20130816041558.392703.20017">
+        <magnitude>
+          <value>6.6381938</value>
+          <uncertainty>0.1858399</uncertainty>
+        </magnitude>
+        <type>MLv</type>
+        <methodID>mean</methodID>
+        <stationCount>24</stationCount>
+        <evaluationStatus>confirmed</evaluationStatus>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.3928Z</creationTime>
+        </creationInfo>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.393037.20018</stationMagnitudeID>
+          <residual>-0.85192327</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.393298.20019</stationMagnitudeID>
+          <residual>-0.7862883</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.393516.20020</stationMagnitudeID>
+          <residual>-0.67495753</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.39375.20021</stationMagnitudeID>
+          <residual>0.03530475</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.393931.20022</stationMagnitudeID>
+          <residual>-0.29804962</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.394158.20023</stationMagnitudeID>
+          <residual>-0.033929929</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.394337.20024</stationMagnitudeID>
+          <residual>-0.38952227</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.394524.20025</stationMagnitudeID>
+          <residual>-0.33299109</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.394775.20026</stationMagnitudeID>
+          <residual>0.078472668</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.394954.20027</stationMagnitudeID>
+          <residual>-0.033732808</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.395368.20028</stationMagnitudeID>
+          <residual>0.098060453</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.39557.20029</stationMagnitudeID>
+          <residual>-0.22999328</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.395746.20030</stationMagnitudeID>
+          <residual>0.31912858</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.395936.20031</stationMagnitudeID>
+          <residual>-0.011076712</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.396131.20032</stationMagnitudeID>
+          <residual>0.29712911</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.396298.20033</stationMagnitudeID>
+          <residual>0.00010016678</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.396492.20034</stationMagnitudeID>
+          <residual>0.24358593</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.396694.20035</stationMagnitudeID>
+          <residual>0.055958805</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.396875.20036</stationMagnitudeID>
+          <residual>-0.14081977</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.397117.20037</stationMagnitudeID>
+          <residual>-0.2726325</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.397289.20038</stationMagnitudeID>
+          <residual>0.2966115</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.397512.20039</stationMagnitudeID>
+          <residual>-0.02962525</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.39771.20040</stationMagnitudeID>
+          <residual>0.1131451</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.397915.20041</stationMagnitudeID>
+          <residual>0.18198215</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.398275.20042</stationMagnitudeID>
+          <residual>0.38349322</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.398516.20043</stationMagnitudeID>
+          <residual>0.41873848</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.398728.20044</stationMagnitudeID>
+          <residual>-0.15363053</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.398917.20045</stationMagnitudeID>
+          <residual>-0.0047946758</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.399122.20046</stationMagnitudeID>
+          <residual>0.45889136</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.399345.20047</stationMagnitudeID>
+          <residual>0.02060043</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.399558.20048</stationMagnitudeID>
+          <residual>0.12912432</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+      </magnitude>
+      <magnitude publicID="Magnitude#20130816041558.40076.20049">
+        <magnitude>
+          <value>6.4035547</value>
+          <uncertainty>0.3460783</uncertainty>
+        </magnitude>
+        <type>ML</type>
+        <methodID>trimmed mean</methodID>
+        <stationCount>7</stationCount>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>ashenden@scguiz-ak</author>
+          <creationTime>2013-08-16T04:15:58.400812Z</creationTime>
+        </creationInfo>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.400987.20050</stationMagnitudeID>
+          <residual>-0.58405863</residual>
+          <weight>0.875</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.40283.20051</stationMagnitudeID>
+          <residual>-0.59114271</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.414107.20052</stationMagnitudeID>
+          <residual>-0.037709566</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.414371.20053</stationMagnitudeID>
+          <residual>0.56829506</residual>
+          <weight>0.875</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.415508.20054</stationMagnitudeID>
+          <residual>0.191829</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.415737.20055</stationMagnitudeID>
+          <residual>0.11345151</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.41591.20056</stationMagnitudeID>
+          <residual>-0.23714339</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.416136.20057</stationMagnitudeID>
+          <residual>0.64196255</residual>
+          <weight>0</weight>
+        </stationMagnitudeContribution>
+        <stationMagnitudeContribution>
+          <stationMagnitudeID>StationMagnitude#20130816041558.416311.20058</stationMagnitudeID>
+          <residual>-0.01663442</residual>
+          <weight>1</weight>
+        </stationMagnitudeContribution>
+      </magnitude>
+      <magnitude publicID="Origin#20130816041550.248146.19855#netMag.M">
+        <magnitude>
+          <value>6.6381938</value>
+        </magnitude>
+        <type>M</type>
+        <methodID>weighted average</methodID>
+        <stationCount>24</stationCount>
+        <creationInfo>
+          <agencyID>WEL(GNS_Primary)</agencyID>
+          <author>scmag@scz-ak.geonet.org.nz</author>
+          <creationTime>2013-08-16T04:19:28.541892Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </origin>
+    <event publicID="2013p613797">
+      <preferredOriginID>Origin#20130816041550.248146.19855</preferredOriginID>
+      <preferredMagnitudeID>Origin#20130816041550.248146.19855#netMag.M</preferredMagnitudeID>
+      <creationInfo>
+        <agencyID>WEL(GNS_Primary)</agencyID>
+        <author>scevent@scz-ak.geonet.org.nz</author>
+        <creationTime>2013-08-16T02:31:34.817971Z</creationTime>
+        <modificationTime>2013-08-16T04:19:28.546014Z</modificationTime>
+      </creationInfo>
+      <originReference>Origin#20130816041550.248146.19855</originReference>
+    </event>
+  </EventParameters>
+</seiscomp>
