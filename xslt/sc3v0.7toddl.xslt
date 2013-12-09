@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <xsl:variable name="publicID" select="@publicID"/>
 
         <xsl:value-of select="string('SELECT wfs.add_event(')"/>
-
+        
         <!-- 1. publicId TEXT -->
         <xsl:value-of select="$apos"/>
         <xsl:value-of select="$publicID"/>
@@ -71,8 +71,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         <!-- close -->
         <xsl:value-of select="string(');')"/>
-
-    </xsl:template>
+        
+        <xsl:value-of select="$newline"/>
+        
+</xsl:template>
 
     <xsl:template match="sc3:origin">
         <xsl:param name="preferredOriginID"/>
@@ -239,5 +241,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
+    
+    <xsl:variable name="newline">
+        <xsl:text>&#xa;</xsl:text>
+    </xsl:variable>
 
 </xsl:stylesheet>
