@@ -20,20 +20,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-
-    <!-- 
-xslt template to transform quake events in seiscomp3 xml document into ddl text,
-TODO: have to use with remove-namespace.xslt for xslt version 1.0
--->
     <xsl:output method="text" encoding="UTF-8" indent="no"/>
     <xsl:variable name="apos">'</xsl:variable>
-    <xsl:template match="/seiscomp">
-        <xsl:apply-templates select="EventParameters/event"/>
+    <xsl:template match="/sc3:seiscomp">
+        <xsl:apply-templates select="sc3:EventParameters/sc3:event"/>
     </xsl:template>
 
-    <xsl:template match="event">
-        <xsl:variable name="preferredOriginID" select="preferredOriginID"/>
-        <xsl:variable name="preferredMagnitudeID" select="preferredMagnitudeID"/>
+    <xsl:template match="sc3:event">
+        <xsl:variable name="preferredOriginID" select="sc3:preferredOriginID"/>
+        <xsl:variable name="preferredMagnitudeID" select="sc3:preferredMagnitudeID"/>
         <xsl:variable name="publicID" select="@publicID"/>
 
         <xsl:value-of select="string('SELECT wfs.add_event(')"/>
@@ -46,14 +41,14 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
         <!-- 2. eventtype TEXT -->
         <xsl:call-template name="valueOrNull">
-            <xsl:with-param name="value" select="type"/>
+            <xsl:with-param name="value" select="sc3:type"/>
             <xsl:with-param name="isText" select="true()"/>
         </xsl:call-template>
         <xsl:value-of select="string(',')"/>
 
         <!-- 3. origintime TIMESTAMP -->
         <xsl:value-of select="$apos"/>
-        <xsl:value-of select="../origin[@publicID=$preferredOriginID]/time/value"/>
+        <xsl:value-of select="../sc3:origin[@publicID=$preferredOriginID]/sc3:time/sc3:value"/>
         <xsl:value-of select="$apos"/>
         <xsl:value-of select="string('::timestamptz,')"/>
 
@@ -64,12 +59,12 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
             <xsl:value-of select="max((//creationTime|//modificationTime)/xs:dateTime(.))"/>
         -->
         <xsl:call-template name="maximun">
-            <xsl:with-param name="dateString" select="//creationTime|//modificationTime"/>
+            <xsl:with-param name="dateString" select="//sc3:creationTime|//sc3:modificationTime"/>
         </xsl:call-template>
         <xsl:value-of select="$apos"/>
         <xsl:value-of select="string('::timestamptz,')"/>
 
-        <xsl:apply-templates select="../origin">
+        <xsl:apply-templates select="../sc3:origin">
             <xsl:with-param name="preferredOriginID" select="$preferredOriginID"/>
             <xsl:with-param name="preferredMagnitudeID" select="$preferredMagnitudeID"/>
         </xsl:apply-templates>
@@ -79,28 +74,28 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
     </xsl:template>
 
-    <xsl:template match="origin">
+    <xsl:template match="sc3:origin">
         <xsl:param name="preferredOriginID"/>
         <xsl:param name="preferredMagnitudeID"/>
 
         <xsl:if test="@publicID=$preferredOriginID">
 
             <!-- 5. latitude NUMERIC -->
-            <xsl:value-of select="latitude/value"/>
+            <xsl:value-of select="sc3:latitude/sc3:value"/>
             <xsl:value-of select="string(',')"/>
 
             <!-- 6. longitude NUMERIC -->
-            <xsl:value-of select="longitude/value"/>
+            <xsl:value-of select="sc3:longitude/sc3:value"/>
             <xsl:value-of select="string(',')"/>
 
             <!-- 7. depth NUMERIC -->
-            <xsl:value-of select="depth/value"/>
+            <xsl:value-of select="sc3:depth/sc3:value"/>
             <xsl:value-of select="string(',')"/>
 
             <!-- 8. magnitude NUMERIC -->
             <xsl:call-template name="valueOrNull">
                 <xsl:with-param name="value"
-                    select="magnitude[@publicID=$preferredMagnitudeID]/magnitude/value"/>
+                    select="sc3:magnitude[@publicID=$preferredMagnitudeID]/sc3:magnitude/sc3:value"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -108,7 +103,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 9. evaluationMethod TEXT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="methodID"/>
+                <xsl:with-param name="value" select="sc3:methodID"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -116,7 +111,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 10. evaluationStatus TEXT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="evaluationStatus"/>
+                <xsl:with-param name="value" select="sc3:evaluationStatus"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -124,7 +119,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 11. evaluationMode TEXT-->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="evaluationMode"/>
+                <xsl:with-param name="value" select="sc3:evaluationMode"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -132,7 +127,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 12. earthModel TEXT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="earthModelID"/>
+                <xsl:with-param name="value" select="sc3:earthModelID"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -140,7 +135,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 13. depthType TEXT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="depthType"/>
+                <xsl:with-param name="value" select="sc3:depthType"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -148,7 +143,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 14. originError NUMERIC -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="quality/standardError"/>
+                <xsl:with-param name="value" select="sc3:quality/sc3:standardError"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -156,7 +151,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 15. usedPhaseCount INT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="quality/usedPhaseCount"/>
+                <xsl:with-param name="value" select="sc3:quality/sc3:usedPhaseCount"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -164,7 +159,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 16. usedStationCount INT -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="quality/usedStationCount"/>
+                <xsl:with-param name="value" select="sc3:quality/sc3:usedStationCount"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -172,7 +167,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 17. minimumDistance NUMERIC  -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="quality/minimumDistance"/>
+                <xsl:with-param name="value" select="sc3:quality/sc3:minimumDistance"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -180,7 +175,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
 
             <!-- 18. azimuthalGap NUMERIC -->
             <xsl:call-template name="valueOrNull">
-                <xsl:with-param name="value" select="quality/azimuthalGap"/>
+                <xsl:with-param name="value" select="sc3:quality/sc3:azimuthalGap"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -189,7 +184,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
             <!-- 19. magnitudeType TEXT -->
             <xsl:call-template name="valueOrNull">
                 <xsl:with-param name="value"
-                    select="magnitude[@publicID=$preferredMagnitudeID]/type"/>
+                    select="sc3:magnitude[@publicID=$preferredMagnitudeID]/sc3:type"/>
                 <xsl:with-param name="isText" select="true()"/>
             </xsl:call-template>
 
@@ -198,7 +193,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
             <!-- 20. magnitudeUncertainty NUMERIC -->
             <xsl:call-template name="valueOrNull">
                 <xsl:with-param name="value"
-                    select="magnitude[@publicID=$preferredMagnitudeID]/magnitude/uncertainty"/>
+                    select="sc3:magnitude[@publicID=$preferredMagnitudeID]/sc3:magnitude/sc3:uncertainty"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
@@ -207,7 +202,7 @@ TODO: have to use with remove-namespace.xslt for xslt version 1.0
             <!-- 21. magnitudeStationCount INT -->
             <xsl:call-template name="valueOrNull">
                 <xsl:with-param name="value"
-                    select="magnitude[@publicID=$preferredMagnitudeID]/stationCount"/>
+                    select="sc3:magnitude[@publicID=$preferredMagnitudeID]/sc3:stationCount"/>
                 <xsl:with-param name="isText" select="false()"/>
             </xsl:call-template>
 
