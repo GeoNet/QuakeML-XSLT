@@ -127,9 +127,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		<xsl:value-of select="$apos"/>
 
 		<xsl:call-template name="publicStatus">
-			<xsl:with-param name="value" select="sc3:evaluationMode"/>
-			<xsl:with-param name="value" select="sc3:evaluationStatus"/>
-			<xsl:with-param name="value" select="sc3:type"/>
+			<xsl:with-param name="evaluationMode" select="sc3:evaluationMode"/>
+			<xsl:with-param name="evaluationStatus" select="sc3:evaluationStatus"/>
+			<xsl:with-param name="type" select="sc3:type"/>
 		</xsl:call-template>
 
 		<xsl:value-of select="$apos"/>
